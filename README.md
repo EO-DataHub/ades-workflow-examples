@@ -17,3 +17,6 @@ The included scripts test:
 ## Logging Review
 Each directory contains a brief overview of the logging expected in each failure (or success) case, specifying how the user can identify the cause of the failure.
 
+## References
+The source code for the CWL scripts in this package are taken from the EOEPCA example workflows available [here](https://github.com/EOEPCA/convert).
+
