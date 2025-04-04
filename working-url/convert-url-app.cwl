@@ -7,7 +7,7 @@ schemas:
 $graph:
   # Workflow entrypoint
   - class: Workflow
-    id: convert-url-working
+    id: convert-url
     label: convert url app
     doc: Convert URL
     requirements:
@@ -53,7 +53,7 @@ $graph:
         ramMax: 512
     hints:
       DockerRequirement:
-        dockerPull: public.ecr.aws/n1b3o1k2/ades-workflow-examples:working
+        dockerPull: public.ecr.aws/eodh/ades-workflow-examples:0.0.1
     baseCommand: convert.sh
     inputs:
       fn:
