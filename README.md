@@ -1,3 +1,5 @@
+# Archived Repository - examples now provided in example-workflows repository.
+
 # ADES Workflow Examples for Logging
 
 Quick repo to provide example CWl scripts and Docker images to test the logging outputs provided by the ADES when the workflow fails.
